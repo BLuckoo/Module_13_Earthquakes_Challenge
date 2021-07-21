@@ -6,39 +6,36 @@ The objective of this project is to gather earthquake data from the U.S. Geologi
 
 The earthquake data collected from the USGS contains data from earthquakes worldwide over the past week. 
 
-This data has been extracted and loaded as a GeoJSON file, a type of JSON data specifically designed to hold geographical information. 
-The final map contains the earthquake data represented as circular markers with their size and color corresponding to the magnitude of the earthquake. Each marker also has a popup that displays the magnitude and location of the earthquake. The map also contains multiple viewing layers (i.e. satellite, street) and the ability to toggle visibility of the earthquake data.  USGS
+- This data has been extracted and loaded as a GeoJSON file, a type of JSON data specifically designed to hold geographical information. 
+- The final map contains the earthquake data represented as circular markers with their size and color corresponding to the magnitude of the earthquake. Each marker also has a popup that displays the magnitude and location of the earthquake. 
+- The map also contains multiple viewing layers (from the Leaflet JavaScript library, i.e. streets, satellite-streets and dark) and the ability to toggle visibility of the earthquake data (for example, no earthquake markings, earthquake markings and tectonic plates).  
 
-Data Source: Earthquakes GeoJSON, Earthquakes above 4.5mag GeoJSON, Tectonic Plate GeoJSON
-Software: HTML/CSS, JavaScript, Visual Studio Code 1.49.1, Leaflet 1.7.1, D3.js 6.2.0
-Results
-Create a Mapbox account, setup config.js and open index.html
-To interact with the maps API the user have to visit mapbox.com, create a Mapbox account and retrieve the access token.
-Using these APIs in combination with the Leaflet JavaScript library, enables easy and highly customizable map creation.
+## Resources
+- Data Source: Earthquakes GeoJSON, Earthquakes above 4.5mag GeoJSON, Tectonic Plate GeoJSON
+- Coding language and librairies: HTML/CSS, JavaScript, Visual Studio, Leaflet 1.7.1, D3.js 6.2.0
+
+## Results
 
 To access the website, please [Click Here](https://bluckoo.github.io/Module_13_Earthquakes_Challenge/).
 
+The map is interactive and the user can use the toggle button on the upper right of the page to select the following:
 
+- Type of view:
+  - Streets - daylight map showing a map of the world with the country names;
+  - Satellite - satellite view of world map showing the landscape features;
+  - Dark - a dark version of the world map.
 
+- Earthquake information:
+  - Earthquakes - shows all earthquakes around the world, with a bubble marker whose color and size is depending on the magnitude of the earthquake;
+  - Tectonic plates - an red overlay indicating the location of the tectonic plates around the world;
+  - Major Earthquakes - the major earthquakes with a magnitude of 4.5 and above are illustrated as bubbles of different size and color depending on their magnitudes.
+  
+Please note that the toggle elements for earthquake information can each be selected alone or together to illustrate the elements.
 
+## Example of Interactive Map Views
 
-The earthquake data is represented on the maps in relation to the tectonic plates’ location on the earth, and according to each event's magnitude.
-
-Resources
-
-
-As shown below, the index.html calls for the Mapbox API key in the config.js file.
-
-
-
-The user would have to save the token key in config.example.js and rename the file config.js:
-
-
-
-
-
-
-Interactive Maps Views
+1. Street view showing all earthquakes.
+<img width="953" alt="Street view showing all earthquakes" src="https://user-images.githubusercontent.com/82583576/126418327-83da8d69-6f16-42e6-b8c7-5c0fe98c6c86.PNG">
 
 
 
