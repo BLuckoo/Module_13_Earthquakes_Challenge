@@ -47,3 +47,10 @@ Please note that the toggle elements for earthquake information can each be sele
 <img width="949" alt="Staellite view showing major earthquakes and tectonic plates" src="https://user-images.githubusercontent.com/82583576/126418884-a58060e1-7557-405a-8785-da91f1134e14.PNG">
 </p>
 
+3. Dark view showing all earthquakes, the tectonic plates and a popup with the magnitude and location of the earthquake.
+
+<p align="center">
+<img width="953" alt="Dark view with all earthquakesand tectonic plates" src="https://user-images.githubusercontent.com/82583576/126419305-4ec65262-dd7a-4fdf-a1a4-25f23e2d663c.PNG">
+</p>
+
+This project was fun - please try the interactive maps and learn more about earthquakes!!
